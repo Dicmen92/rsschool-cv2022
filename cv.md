@@ -15,3 +15,17 @@ Dedication, optimism, adequacy, sociability and a great desire to learn all the 
 HTML, CSS, JS, Flexbox, Bootstrap 4, BEM, git, SASS preprocessor, Photoshop, Avocode
 
 ====
+
+## Education:
+### Higher education (Bachelor)
+
+## Advanced training courses:
+### Layout Academy, Web Developer 11.0 - 2017 year
+### Layout Academy, JavaScript - 2020 year
+### RS School, JS / FRONT-END. STAGE 0 - 2022 year
+
+====
+
+## Knowledge of languages:
+* Russian
+* basic English
