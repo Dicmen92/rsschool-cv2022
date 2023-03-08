@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/Favicon.ico">
+  <title>cv</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <ul class="nav-menu">
+          <li class="nav-link"><a href="#contacts">Contacts</a></li>
+          <li class="nav-link"><a href="#pers">Personal qualities</a></li>
+          <li class="nav-link"><a href="#pers-skills">IT Skillsv</a></li>
+          <li class="nav-link"><a href="#primary_education">Education</a></li>
+          <li class="nav-link"><a href="#additional-education">Advanced training courses</a></li>
+          <li class="nav-link"><a href="#languages">Knowledge of languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<main class="main">
+  <div class="container">
+    <section class="contacts section" id="contacts">
+      <div class="image-wrap">
+        <img class="contacts-image" src="assets/img/my-foto.jpg" alt="Photo of the author">
+      </div>
+      <div class="contacts-wrap">
+        <h1 class="contacts-title">Babich Dmitriy</h1>
+        <h2 class="contacts-subtitle subtitle">Front-end. Stage 0</h2>
+        <ul class="personal-data">
+          <li class="data-link">
+            <img src="assets/img/github.png" alt="icon github">
+            <span class="data-img"></span>
+            <a class="personal-link" href="https://github.com/Dicmen92">github.com/Dicmen92</a>
+          </li>
+          <li class="data-link">
+            <img src="assets/img/email.png" alt="icon email">
+            <span class="data-img"></span>
+            <a class="personal-link" href="mailto:babich-d@mail.ru">babich-d@mail.ru</a>
+          </li>
+          <li class="data-link">
+            <img src="assets/img/telephone.png" alt="icon telephone">
+            <span class="data-img"></span>
+            <a class="personal-link" href="tel:+77076635702">+7(707)6635702</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="pers section" id="pers">
+      <div class="pers-qualities pers__desc">
+        <h2 class="subtitle">Personal qualities:</h2>
+        <p class="pers-qualities__text">Dedication, optimism, adequacy, sociability and a great desire to learn all the delights of this profession. There is no practical experience in the studio, but there is knowledge in HTML, CSS, JS (in October I graduated from the Academy of Layout, I have a certificate) bootstrap 4, flexbox.</p>
+        <p class="pers-qualities__text">Programming as a scientific discipline appeared in the middle of the 20th century with the invention of the first computer, which at that time corresponded to the area of ​​a one-room apartment, spent a rather long period of time on each operation and understood only one language - its own machine language.</p>
+          <h2 class="section-title">Example of my code</h2>
+            <pre class="pre">
+              <code>
+              if (numString.length &gt; 1) {
+                for (let i = 0; i &gt;= numString.length - 1; i++) {
+                result += numString[i];
+              }
+            </code>
+            </pre>
+            <a class="pers-project section-title" href="https://dicmen92.github.io/rsschool-cv/">My project (CV)</a>
+      </div>
+      <div class="pers-skills pers__desc" id="pers-skills">
+        <h2 class="subtitle">IT Skills:</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS (base)</li>
+          <li>Flexbox</li>
+          <li>Bootstrap 4</li>
+          <li>BEM</li>
+          <li>git</li>
+          <li>SASS preprocessor</li>
+          <li>Photoshop, Figma</li>
+          <li>Avocode</li>
+        </ul>
+      </div>
+    </section>
+    <section class="education section">
+      <div class="primary_education" id="primary_education">
+        <h2 class="subtitle">Education:</h2>
+        <ul class="primary_education__menu">
+          <li class="primary_education__list">Primary school (grades 1-4)</li>
+          <li class="primary_education__list">Secondary school (grades 5-9)</li>
+          <li class="primary_education__list">Сollege of road transport (1-4 course)</li>
+          <li class="primary_education__list">Kostanay Engineering and Economic University (1-3 course)</li>
+        </ul>
+      </div>
+      <div class="additional-education" id="additional-education">
+        <h2 class="subtitle">Advanced training courses:</h2>
+        <ul class="additional_education__menu">
+          <li class="additional_education__list">Layout Academy, Web Developer 11.0 - 2017 year</li>
+          <li class="additional_education__list">Layout Academy, JavaScript - 2020 year</li>
+          <li class="additional_education__list">RS School JS / FRONT-END. STAGE 0 - 2021 - 2022 year</li>
+        </ul>
+      </div>
+    </section>
+    <div class="languages" id="languages">
+      <h2 class="subtitle languages__subtitle">Knowledge of languages:</h2>
+      <div class="languages-wrap">
+        <p class="languages-text">Russian</p>
+        <p class="languages-text">Basic English</p>
+      </div>
+    </div>
+  </div>
+  <form class="form" action="#">
+    <div class="input-container">
+      <input class="input-text" type="text">
+      <button type="submit">send</button>
+    </div>
+  </form>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrap">
+      <div class="footer-name">
+        <span>&#9400; 2022</span>
+        <h2 class="subtitle footer__subtitle"><a href="https://github.com/Dicmen92" class="footer__subtitle">Babich Dmitriy</a></h2>
+      </div>
+      <div class="footer-image">
+        <a href="https://rs.school/js/">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="icon RS School"></a>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
