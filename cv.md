@@ -24,8 +24,6 @@ HTML, CSS, JS, Flexbox, Bootstrap 4, BEM, git, SASS preprocessor, Photoshop, Avo
 ### Layout Academy, JavaScript - 2020 year
 ### RS School, JS / FRONT-END. STAGE 0 - 2022 year
 
-====
-
 ## Knowledge of languages:
 * Russian
 * basic English
